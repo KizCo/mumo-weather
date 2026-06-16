@@ -29,25 +29,25 @@ Mostly sunny, with a high near 76. South wind 0 to 10 mph.
 🛠️ Installation
 1. Save the Module
 
-Copy youtube.py into your primary Mumo modules/ directory.
+Copy weather.py into your primary Mumo modules/ directory.
 2. Enable the Module
 
 Depending on how your Mumo environment is configured, choose one of the methods below:
 Method A: If your setup uses a single mumo.ini file
 
-Open your mumo.ini file and add youtube to your active modules list, then append the configuration at the bottom:
+Open your mumo.ini file and add weather to your active modules list, then append the configuration at the bottom:
 
 [modules]
-youtube =
+weather =
 
-[youtube]
+[weather]
 enabled = true
 
 Method B: If your setup uses a modules-enabled/ directory
 
-Create a new file called youtube.ini inside your modules-enabled/ folder:
+Create a new file called weather.ini inside your modules-enabled/ folder:
 
-[youtube]
+[weather]
 enabled = true
 
 3. Restart Mumo
